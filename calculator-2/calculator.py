@@ -20,7 +20,7 @@ while True:
     # else:
     #     decide which math function to call based on first token
     elif tokens[0] == '+':
-        print(add(float(tokens[1]), float(tokens[2])))
+        print(add(tokens[1:]))
     elif tokens[0] == '-':
         print(subtract(float(tokens[1]), float(tokens[2])))
     elif tokens[0] == '*':
